@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -19,9 +17,7 @@ public class Q2_SecondLargest {
     }
 
     public static int SecondLargest(int[] arr)
-    {
-        int second_largest = 0;
-        
+    {        
         for(int i =0; i< arr.length-1 ; i++)
         {
             for(int j = 1 ; i < arr.length ; i++)
